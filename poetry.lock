@@ -1,0 +1,41 @@
+[[package]]
+name = "colorama"
+version = "0.4.4"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "colored"
+version = "1.4.3"
+description = "Simple library for color and formatting to terminal"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "colored-print"
+version = "0.0.1"
+description = "Output color messages to the terminal"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "98b151235a1fde95199c9ec7b2b8d5c30828fb344a1f1a3fe1cba4832489e63c"
+
+[metadata.files]
+colorama = [
+    {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
+    {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
+]
+colored = [
+    {file = "colored-1.4.3.tar.gz", hash = "sha256:b7b48b9f40e8a65bbb54813d5d79dd008dc8b8c5638d5bbfd30fc5a82e6def7a"},
+]
+colored-print = [
+    {file = "colored_print-0.0.1-py3-none-any.whl", hash = "sha256:b17290c2b3bab8249475f17210fde26c5d8970f265dd26e0d1c69ed8349e267a"},
+    {file = "colored_print-0.0.1.tar.gz", hash = "sha256:d68b7d18529411b953da3fe72873ac809a78d57a2cb6b37fa8e38d5a22f983e2"},
+]
